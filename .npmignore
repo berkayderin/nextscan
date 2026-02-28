@@ -1,0 +1,12 @@
+src/
+tests/
+fixtures/
+scripts/
+.claude/
+*.ts
+!*.d.ts
+tsconfig.json
+vitest.config.ts
+nextscan-prd.md
+coverage/
+.next/
