@@ -1,0 +1,38 @@
+{
+  "name": "nextscan",
+  "version": "1.0.0",
+  "description": "MCP server that scans Next.js projects and returns a compact summary",
+  "type": "module",
+  "bin": {
+    "nextscan": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc && node scripts/postbuild.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "ts-morph": "^25.0.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@vitest/coverage-v8": "^3.1.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  },
+  "author": {
+    "name": "Berkay Derin",
+    "url": "https://github.com/berkayderin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkayderin/nextscan"
+  },
+  "keywords": ["nextjs", "mcp", "scanner", "analyzer"],
+  "license": "MIT"
+}
