@@ -1,6 +1,6 @@
 {
   "name": "@berkayderin/nextscan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that scans Next.js projects and returns a compact summary",
   "type": "module",
   "bin": {
@@ -33,6 +33,12 @@
     "type": "git",
     "url": "https://github.com/berkayderin/nextscan"
   },
-  "keywords": ["nextjs", "mcp", "scanner", "analyzer"],
-  "license": "MIT"
+  "keywords": [
+    "nextjs",
+    "mcp",
+    "scanner",
+    "analyzer"
+  ],
+  "license": "MIT",
+  "mcpName": "io.github.berkayderin/nextscan"
 }
