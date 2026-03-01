@@ -1,5 +1,5 @@
 {
-  "name": "nextscan",
+  "name": "@berkayderin/nextscan",
   "version": "1.0.0",
   "description": "MCP server that scans Next.js projects and returns a compact summary",
   "type": "module",
